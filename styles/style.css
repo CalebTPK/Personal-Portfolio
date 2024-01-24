@@ -1,0 +1,125 @@
+html {
+    background: #131313;
+    scroll-behavior: smooth;
+    line-height: 1.1;
+    font-size: 16px;
+    color: #f5eee6;
+    font-family: 'Montserrat', sans-serif;;
+    --viewport-height: 1294px;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    line-height: 1;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    left: 28px;
+    right: 28px;
+    z-index: 11;
+    height: 55px;
+    opacity: 1;
+}
+
+div {
+    display: block;
+}
+
+a {
+    color: #f5eee6;
+    text-decoration: none;
+}
+a span {
+    color: #fff;
+    text-transform: none;
+    margin-right: 1.625rem;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+ul {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+
+
+
+.wrap-header {
+    position: relative;
+}
+
+
+#main-menu ul {
+    display: flex;
+    gap: 1rem; 
+}
+
+.main-navigation {
+    padding: 0.8125rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    border-bottom: 1px solid rgba(245, 238, 230, .5);
+    position: relative;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.h5 {
+    font-size: 1.2rem; 
+    font-weight: 600; 
+    line-height: 1; 
+    display: block; 
+    margin-right: 1rem;
+
+}
+
+.h6 {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1;
+    display: block;
+    margin-right: 1rem;
+
+}
+
+.trochut {
+    font-family: 'Trochut', sans-serif;
+}
+
+.scroll {
+    position: absolute;
+    top: 0;
+    left: -28px;
+    bottom: 0;
+    right: -28px;
+    background-color: rgba(19,19,19,.15);
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    opacity: 0;
+    z-index: -1
+}
+
+.name {
+    margin-bottom: 0.238rem;
+}
+
+#landing {
+    height: 100vh;
+    background-image: url('path/to/your/image.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative 
+}
