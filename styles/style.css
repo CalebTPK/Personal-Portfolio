@@ -118,8 +118,46 @@ ul {
 
 #landing {
     height: 100vh;
-    background-image: url('path/to/your/image.jpg');
+    background-image: url('../images/rocket-launch.jpg');
     background-size: cover;
     background-position: center;
     position: relative 
+}
+
+.landing-content {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.top-right {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+
+.main-title {
+    font-size: 2.5rem; /* Adjust based on your design */
+    margin-bottom: 0.5rem; /* Add spacing between main title and sub title */
+}
+
+.sub-title {
+    font-size: 1.2rem; /* Adjust based on your design */
+    margin-top: 0; /* Remove default top margin */
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    text-align: left;
+    max-width: 400px; /* Adjust based on your design */
+}
+
+.about-me {
+    font-size: 1rem; /* Adjust based on your design */
+    line-height: 1.5; /* Adjust based on your design */
+    margin-top: 0; /* Remove default top margin */
 }
